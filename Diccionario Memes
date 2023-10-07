@@ -1,0 +1,24 @@
+meme_dict = {
+    "CRINGE": "Algo excepcionalmente raro o embarazoso",
+    "LOL": "Una respuesta común a algo gracioso",
+    "ROFL": "Una respuesta a una broma",
+    "SHEESH": "Ligera desaprobación",
+    "CREEPY": "Aterrador, siniestro",
+    "AGGRO": "Ponerse agresivo/enojado",
+    "YOLO": "Sólo se vive una vez",
+    "SMH": "Sacudiendo mi cabeza (desacuerdo)",
+    "BRB": "Volveré enseguida (Be Right Back)",
+    "TBT": "Jueves de vuelta al pasado (Throwback Thursday)",
+}
+
+while True:
+    word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+
+    if word in meme_dict:
+        print(meme_dict[word])
+    else:
+        print("No tengo información sobre esa palabra")
+
+    another_word = input("¿Quieres saber sobre otra palabra? (s/n): ")
+    if another_word.lower() != 's':
+        break
