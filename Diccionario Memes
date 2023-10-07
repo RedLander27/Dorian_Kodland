@@ -9,6 +9,7 @@ meme_dict = {
     "SMH": "Sacudiendo mi cabeza (desacuerdo)",
     "BRB": "Volveré enseguida (Be Right Back)",
     "TBT": "Jueves de vuelta al pasado (Throwback Thursday)",
+    "XD": "Una respuesta común a algo gracioso"
 }
 
 while True:
